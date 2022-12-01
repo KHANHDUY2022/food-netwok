@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>food</title>
+</head>
+
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <img src="/assets/image/logo.png" alt="">
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#Features" class="nav__link">Features</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+
+            </div>
+            <div class="nav__cart" id="nav-cart">
+                <i class="fa-solid fa-cart-shopping">
+                    <span class="number">1</span>
+                </i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title"> Food Store</h1>
+                    <h2 class="home__subtitle">Making time a good time by making <br> food the good food.</h2>
+                    <a href="#" class="button" id="oder">Order Now</a>
+                    <a href="#" class="button" id="details">Food Details</a>
+                </div>
+
+                <img src="assets/image/home-removebg-preview.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--========== FEATURES ==========-->
+
+        <section class="Features section bd-container" id="Features">
+
+            <span class="section-subtitle">Features</span>
+            <h2 class="section-title">Food with a New Passion</h2>
+            <div class="Features__container  bd-grid">
+                <div class="Features__content">
+                    <img src="/assets/image/Group 93.png" alt="">
+                    <h3 class="Features__title">Quality Food</h3>
+                    <p class="Features__description">It can be a very secure path to earn good money and make you
+                        very successful creative entrepreneur.</p>
+                </div>
+
+                <div class="Features__content">
+                    <img src="/assets/image/Group 94.png" alt="">
+                    <h3 class="Features__title">Food Delivery</h3>
+                    <p class="Features__description">It can be a very secure path to earn good money and make you
+                        very successful creative entrepreneur.</p>
+                </div>
+
+                <div class="Features__content">
+                    <img src="/assets/image/Group.png" alt="">
+                    <h3 class="Features__title">Super Taste</h3>
+                    <p class="Features__description">It can be a very secure path to earn good money and make you
+                        very successful creative entrepreneur.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">ABOUT US</span>
+                    <h2 class="section-title about__initial">Food Stalls with <br> Product marketing
+                        plane</h2>
+                    <p class="about__description">We cook the best food in the entire city, with excellent customer
+                        service, the best meals and at the best price, visit us.</p>
+                    <a href="#" class="button">Read more</a>
+                </div>
+                <img src="assets/image/girl.png" alt="" class="about__img">
+            </div>
+        </section>
+        <!--========== MENU ==========-->
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">MENU</span>
+            <h2 class="section-title">Food Full of treaty Love</h2>
+            <p class="menu__description">There are many things are needed to start the Fast Food Business. You need not
+                only Just Food Stalls with
+                Persons but also specialized equipment, Skills to manage Customers, </p>
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="/assets/image/food.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Barbecue salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <p class="menu__preci"> $
+                        <span>
+                            22.00
+                        </span>
+                    </p>
+
+                    <a href="#" class="button menu__button" onclick="addtocart(this)"><i
+                            class="fa-solid fa-plus"></i></a>
+                    <!-- sao -->
+                    <div class="group">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/image/food2.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Salad with fish</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$12.00</span>
+                    <a href="#" class="button menu__button"><i class="fa-solid fa-plus"></i></a>
+                    <!-- sao -->
+                    <div class="group">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/image/food3.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Spinach salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$9.50</span>
+                    <a href="#" class="button menu__button"><i class="fa-solid fa-plus"></i></a>
+                    <!-- sao -->
+                    <div class="group">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="menu__content">
+                    <img src="/assets/image/food.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Barbecue salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$22.00</span>
+                    <a href="#" class="button menu__button"><i class="fa-solid fa-plus"></i></a>
+                    <!-- sao -->
+                    <div class="group">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/image/food2.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Salad with fish</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$12.00</span>
+                    <a href="#" class="button menu__button"><i class="fa-solid fa-plus"></i></a>
+                    <!-- sao -->
+                    <div class="group">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/image/food3.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Spinach salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$9.50</span>
+                    <a href="#" class="button menu__button"><i class="fa-solid fa-plus"></i></a>
+                    <!-- sao -->
+                    <div class="group">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="button-menu">
+                <button>Learn more</button>
+            </div>
+        </section>
+
+        <!--===== APP =======-->
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <div class="app__data">
+                    <span class="section-subtitle app__initial">App</span>
+                    <h2 class="section-title app__initial">App is aviable</h2>
+                    <p class="app__description">Find our application and download it, you can make reservations, food
+                        orders, see your deliveries on the way and much more.</p>
+                    <div class="app__stores">
+                        <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>
+                        <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
+                    </div>
+                </div>
+
+                <img src="assets/image/shotot 2.png" alt="" class="app__img">
+            </div>
+        </section>
+        <!-- ==================Slide================== -->
+        <section class="slide section bd-container" id="slide">
+            <section class="container">
+                <div class="testimonial mySwiper">
+                    <div class="testi-content swiper-wrapper">
+                        <div class="slide swiper-slide">
+                            <img src="/assets/image/img1.jpg" alt="" class="image" />
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                saepe provident dolorem a
+                            </p>
+                            <!-- sao -->
+                            <div class="group">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="details">
+                                <span class="name">Marnie Lotter</span>
+                                <span class="job">Web Developer</span>
+                            </div>
+                        </div>
+                        <div class="slide swiper-slide">
+                            <img src="/assets/image/img7.jpg" alt="" class="image" />
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                saepe provident dolorem a q
+                            </p>
+                            <!-- sao -->
+                            <div class="group">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="details">
+                                <span class="name">Marnie Lotter</span>
+                                <span class="job">Web Developer</span>
+                            </div>
+                        </div>
+                        <div class="slide swiper-slide">
+                            <img src="/assets/image/img5.jpg" alt="" class="image" />
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                saepe provident dolorem a q
+                            </p>
+                            <!-- sao -->
+                            <div class="group">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="details">
+                                <span class="name">Marnie Lotter</span>
+                                <span class="job">Web Developer</span>
+                            </div>
+                        </div>
+                        <div class="slide swiper-slide">
+                            <img src="/assets/image/img3.jpg" alt="" class="image" />
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                saepe provident dolorem a q
+                            </p>
+                            <!-- sao -->
+                            <div class="group">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="details">
+                                <span class="name">Marnie Lotter</span>
+                                <span class="job">Web Developer</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next nav-btn"></div>
+                    <div class="swiper-button-prev nav-btn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+        </section>
+
+        <!--========== CONTACT US ==========-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Contact us</span>
+
+                    <p class="contact__description"> Food Stalls with Persons but also specialized equipment, Skills to
+                        manage..</p>
+                </div>
+
+                <div class="contact__button">
+                    <input type="text" placeholder="Enter Contacs Us" class="input__contact" id="bnput-contact">
+                    <a href="#" id="Button-contact">Contact</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+
+
+            <div class="footer__content">
+                <img src="/assets/image/logo.png" alt="">
+                <ul>
+                    <li><a href="#" class="footer__link">Delivery</a></li>
+                    <li><a href="#" class="footer__link">Pricing</a></li>
+                    <li><a href="#" class="footer__link">Fast food</a></li>
+                    <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Event</a></li>
+                    <li><a href="#" class="footer__link">Contact us</a></li>
+                    <li><a href="#" class="footer__link">Privacy policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Adress</h3>
+                <ul>
+                    <li>Nhom js</li>
+                    <li>Duy - Linh - Toàn</li>
+                    <li>999-888-000</li>
+                    <li>FoodStore@email.com</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Food Store</a>
+                <span class="footer__description">Restaurant</span>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+    <!-- Swiper JS -->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <!-- JavaScript -->
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/AddCart.js"></script>
+</body>
+
+</html>
